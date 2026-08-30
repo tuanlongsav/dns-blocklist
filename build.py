@@ -99,10 +99,18 @@ def main():
     custom = set(d.rstrip(".") for d in read_lines("custom.txt") if RE_DOMAIN.match(d))
     blocked |= custom
 
-    excl = set(d.rstrip(".") for d in read_lines("exclude.txt"))
+    # exclude.txt: "domain" tha cả tên con, "=domain" chỉ tha đúng tên đó
+    excl_exact, excl_tree = set(), set()
+    for raw in read_lines("exclude.txt"):
+        d = raw.lstrip("=").rstrip(".")
+        if not d:
+            continue
+        (excl_exact if raw.startswith("=") else excl_tree).add(d)
+    excl = excl_exact | excl_tree
     if excl:
-        suffixes = tuple("." + d for d in excl)
-        blocked = {d for d in blocked if d not in excl and not d.endswith(suffixes)}
+        suffixes = tuple("." + d for d in excl_tree)
+        blocked = {d for d in blocked
+                   if d not in excl and not (suffixes and d.endswith(suffixes))}
 
     result = sorted(blocked)
     body = "\n".join(f"0.0.0.0 {d}" for d in result)

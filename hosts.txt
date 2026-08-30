@@ -1,6 +1,6 @@
 # Blocklist DNS cá nhân — sinh tự động bởi build.py, ĐỪNG sửa tay file này.
 # Sửa sources.txt / custom.txt / exclude.txt rồi để GitHub Actions dựng lại.
-# Số tên miền: 265898
+# Số tên miền: 265929
 # Nguồn: 5 danh sách + custom.txt, đã trừ exclude.txt
 #
 # Bản gộp dẫn xuất, phát hành theo GPL-3.0 (vì có thành phần GPL-3.0).
@@ -17844,6 +17844,7 @@
 0.0.0.0 aliecpress.fr
 0.0.0.0 aliecspres.com
 0.0.0.0 alienateditem.com
+0.0.0.0 alienatedstandard.pro
 0.0.0.0 alienateparadise.com
 0.0.0.0 alieneesowle.qpon
 0.0.0.0 aliengruff.click
@@ -43419,6 +43420,7 @@
 0.0.0.0 coendouspare.com
 0.0.0.0 coenuricanopidrebeget.cyou
 0.0.0.0 coenzeudes.click
+0.0.0.0 coerautsbdfpg.online
 0.0.0.0 coercesquashed.cfd
 0.0.0.0 coercivepoorly.com
 0.0.0.0 coeshoblob.cyou
@@ -76880,6 +76882,7 @@
 0.0.0.0 fungidcolder.com
 0.0.0.0 funil.webjasper.com.br
 0.0.0.0 funintheuk.com
+0.0.0.0 funisconvite.qpon
 0.0.0.0 funkevermogthal.de
 0.0.0.0 funkiakaraya.cfd
 0.0.0.0 funkiermowana.cyou
@@ -77690,6 +77693,7 @@
 0.0.0.0 gaafbi.fashiondays.hu
 0.0.0.0 gaapi.hopemission.com
 0.0.0.0 gaarden.restaurantgrim.dk
+0.0.0.0 gabbartjigsaws.shop
 0.0.0.0 gabedhaura.cfd
 0.0.0.0 gabinetnewline.pl
 0.0.0.0 gablockdodded.qpon
@@ -90055,6 +90059,7 @@
 0.0.0.0 haslundalsted.dk
 0.0.0.0 hasmobi.net
 0.0.0.0 hasmysql.christmas
+0.0.0.0 hasntsheila.cfd
 0.0.0.0 haso.pubmatic.com
 0.0.0.0 haspingplovers.cfd
 0.0.0.0 hasqg.swarm.com
@@ -91843,6 +91848,7 @@
 0.0.0.0 hljgz.phxhomeremodeling.com
 0.0.0.0 hljpdsdiwxodt.site
 0.0.0.0 hljr.gamesport.ir
+0.0.0.0 hljuvmumtbvvc.online
 0.0.0.0 hlkaixfyymdg.com
 0.0.0.0 hlkgyijzhlxno.com
 0.0.0.0 hlkhxw.ashampoo.com
@@ -94189,6 +94195,7 @@
 0.0.0.0 ianoubcdoavip.website
 0.0.0.0 ianthine-purse.shop
 0.0.0.0 ianwrithi.com
+0.0.0.0 iaonzioiystot.site
 0.0.0.0 iaopbzjfhemrb.website
 0.0.0.0 iaoup.fairharborclothing.com
 0.0.0.0 iap2e750o.com
@@ -100878,6 +100885,7 @@
 0.0.0.0 j6wi5xn6hvtn7prce82o52f.cfd
 0.0.0.0 j7.jinghuaqitb.com
 0.0.0.0 j7.jmooreassoc.com
+0.0.0.0 j7kuo30qtn.com
 0.0.0.0 j7kv55pr70.com
 0.0.0.0 j7n7i2dx.enfej.win
 0.0.0.0 j83ad.speedrun.com
@@ -103299,6 +103307,7 @@
 0.0.0.0 jtzyk9iypb.com
 0.0.0.0 ju.bo1iyp73z387o91neu29u.cyou
 0.0.0.0 ju.mmstat.com
+0.0.0.0 juanhawiya.cfd
 0.0.0.0 juanpingers.com
 0.0.0.0 juar620.net
 0.0.0.0 juausnanolbbs.space
@@ -103429,6 +103438,7 @@
 0.0.0.0 jumperweve.cfd
 0.0.0.0 jumpfiledoor.click
 0.0.0.0 jumpflyerintentionally.com
+0.0.0.0 jumpschmoos.cyou
 0.0.0.0 jumptap.com
 0.0.0.0 jumpyfeature.com
 0.0.0.0 jumpylevel.com
@@ -103513,6 +103523,7 @@
 0.0.0.0 juste.ru
 0.0.0.0 justearn.it
 0.0.0.0 justey.com
+0.0.0.0 justfordocs.com
 0.0.0.0 justgetmarriedinitaly.mom
 0.0.0.0 justiceexpertstrade.com
 0.0.0.0 justicejudo.com
@@ -116024,6 +116035,7 @@
 0.0.0.0 log-bizlive.zadn.vn
 0.0.0.0 log-boot.capcutapi.com
 0.0.0.0 log-bridge-mobile.kr.karrotmarket.com
+0.0.0.0 log-collector.shopee.vn
 0.0.0.0 log-collector.svctr.zynga.com
 0.0.0.0 log-collectors-73517960.us-east-1.elb.amazonaws.com
 0.0.0.0 log-config.samsungacr.com
@@ -134221,6 +134233,7 @@
 0.0.0.0 nidehetaira.com
 0.0.0.0 nidfipgitrdhj.space
 0.0.0.0 nidplenitude.com
+0.0.0.0 niduliappense.cfd
 0.0.0.0 nidushogtie.cfd
 0.0.0.0 nie8fe9far.com
 0.0.0.0 niecesprivilegelimelight.com
@@ -135706,6 +135719,7 @@
 0.0.0.0 nrg.red-by-sfr.fr
 0.0.0.0 nrgdsbuviocit.store
 0.0.0.0 nrgiccnpufq.com
+0.0.0.0 nrgvkrfrcnedt.space
 0.0.0.0 nrgzr.oneorganizedmom.com
 0.0.0.0 nrich.ai
 0.0.0.0 nrils.michaelkors.com
@@ -137144,6 +137158,7 @@
 0.0.0.0 obs.forseasky.com
 0.0.0.0 obs.greencolumnblog.com
 0.0.0.0 obs.nnm2.ru
+0.0.0.0 obs.sd4823.spglobal.com
 0.0.0.0 obs.system1onesource.com
 0.0.0.0 obscenesidewalk.com
 0.0.0.0 obscenewoman4n.com
@@ -138383,6 +138398,7 @@
 0.0.0.0 olntyyszaelkp.online
 0.0.0.0 olodlstape.collegevidya.com
 0.0.0.0 olofragrance.live
+0.0.0.0 olomaoborscht.cyou
 0.0.0.0 olopisotmvkug.site
 0.0.0.0 olopruy.com
 0.0.0.0 olotu.cardanaircraft.org
@@ -139764,6 +139780,7 @@
 0.0.0.0 opim.pixmania.com
 0.0.0.0 opimianintuitsmarinas.cyou
 0.0.0.0 opinesgallate.com
+0.0.0.0 opinicl.com
 0.0.0.0 opinionatedborrowed.com
 0.0.0.0 opinionlabcc.122.2o7.net
 0.0.0.0 opinionstage.com
@@ -145838,6 +145855,7 @@
 0.0.0.0 pixel.trackverify.com
 0.0.0.0 pixel.udpauto.ru
 0.0.0.0 pixel.underzstore.com
+0.0.0.0 pixel.uppromote.com
 0.0.0.0 pixel.veritone-ce.com
 0.0.0.0 pixel.videohub.tv
 0.0.0.0 pixel.vidoomy.com
@@ -146724,6 +146742,7 @@
 0.0.0.0 playery.pl
 0.0.0.0 playeverlustinglife.space
 0.0.0.0 playfootballoverseas.com
+0.0.0.0 playfulletooer.qpon
 0.0.0.0 playfulriver.com
 0.0.0.0 playfuls.uk.intellitxt.com
 0.0.0.0 playgap.b-cdn.net
@@ -150128,6 +150147,7 @@
 0.0.0.0 proudlytap.com
 0.0.0.0 prov-lg.alphonso.tv
 0.0.0.0 prov.alphonso.tv
+0.0.0.0 provboarish.shop
 0.0.0.0 provence-ouyillage.fr
 0.0.0.0 provenfeedback.com
 0.0.0.0 provenpixel.com
@@ -151727,6 +151747,7 @@
 0.0.0.0 pynnrd.mollini.com.au
 0.0.0.0 pynnywwoczyub.website
 0.0.0.0 pyntbz.icu
+0.0.0.0 pyocyteequally.qpon
 0.0.0.0 pyoidvoragootyak.qpon
 0.0.0.0 pyonbq.rakurakumeisai.jp
 0.0.0.0 pyonbrj41b.com
@@ -153161,6 +153182,7 @@
 0.0.0.0 qsodssvqzzpoi.site
 0.0.0.0 qsomqlmliiuwu.online
 0.0.0.0 qspwyoku.shop
+0.0.0.0 qsqydglsgnriy.website
 0.0.0.0 qsrpytbapxkgq.site
 0.0.0.0 qsry.boro3.bet
 0.0.0.0 qss-client.qq.com
@@ -158467,6 +158489,7 @@
 0.0.0.0 rockymountainclinicalcounseling.com
 0.0.0.0 rockyspoons.com
 0.0.0.0 rocoads.com
+0.0.0.0 rocpannes.cyou
 0.0.0.0 rocvaloraire.shop
 0.0.0.0 rodale.d1.sc.omtrdc.net
 0.0.0.0 roddodoes.cfd
@@ -164990,6 +165013,7 @@
 0.0.0.0 sechw.com
 0.0.0.0 secimage.adtech.fr
 0.0.0.0 secimage.adtech.us
+0.0.0.0 secludedubber.qpon
 0.0.0.0 secludefossilbummer.com
 0.0.0.0 secludeunhappybungalow.com
 0.0.0.0 secludeyourselvescaraway.com
@@ -207738,6 +207762,7 @@
 0.0.0.0 therawolf-ss.dealshopa.com
 0.0.0.0 thereafterblazingclass.com
 0.0.0.0 theredirect.net
+0.0.0.0 theredramekin.com
 0.0.0.0 thereforeprisoniso.com
 0.0.0.0 theregister.uk.intellitxt.com
 0.0.0.0 thereofskeel.qpon
@@ -209600,6 +209625,7 @@
 0.0.0.0 toastparasolcrush.com
 0.0.0.0 toasttutor.com
 0.0.0.0 toathoule.com
+0.0.0.0 toatoatiaraonker.cfd
 0.0.0.0 tobacdissa.autos
 0.0.0.0 tobaltoyon.com
 0.0.0.0 tobapplog.ctobsnssdk.com
@@ -217836,6 +217862,7 @@
 0.0.0.0 tutenagemodins.qpon
 0.0.0.0 tuterrara.site
 0.0.0.0 tutgcinarlak.com
+0.0.0.0 tutineclegma.cfd
 0.0.0.0 tutisanti.mom
 0.0.0.0 tutoads.tv
 0.0.0.0 tutorialoutpost.us.intellitxt.com
@@ -221261,6 +221288,7 @@
 0.0.0.0 usersasa.com
 0.0.0.0 usersegment.wpdigital.net
 0.0.0.0 userstat.net
+0.0.0.0 userstats.shopee.vn
 0.0.0.0 usersync.adpone.com
 0.0.0.0 usersync.datatrics.com
 0.0.0.0 usersync.getpublica.com
@@ -226787,6 +226815,7 @@
 0.0.0.0 vtdoska.ru
 0.0.0.0 vtdpgbank.com
 0.0.0.0 vtdwverkopbve.website
+0.0.0.0 vtdywcpxjhpyi.space
 0.0.0.0 vte.nexteramedia.com
 0.0.0.0 vtemlrnsqozri.site
 0.0.0.0 vtent.andbeyond.media
@@ -260431,6 +260460,7 @@
 0.0.0.0 xqqmcnphocpku.website
 0.0.0.0 xqqsfeipxeefv.store
 0.0.0.0 xqqtr.joecoffeecompany.com
+0.0.0.0 xqqtsfdxpejqm.online
 0.0.0.0 xqruxyxu.onelittleday.com.au
 0.0.0.0 xqsfsvngpzsns.store
 0.0.0.0 xqslse.annadiva.nl
@@ -261318,6 +261348,7 @@
 0.0.0.0 yarerairbagsjosher.cyou
 0.0.0.0 yarezo.vendee-tourisme.com
 0.0.0.0 yariman.online
+0.0.0.0 yarkoda.cfd
 0.0.0.0 yaroec.plytki-lazienki.pl
 0.0.0.0 yarovinsul.online
 0.0.0.0 yarrah.mom

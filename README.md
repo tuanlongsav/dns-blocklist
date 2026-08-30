@@ -18,10 +18,15 @@ https://raw.githubusercontent.com/tuanlongsav/dns-blocklist/main/hosts.txt
 |---|---|
 | `sources.txt` | các blocklist nguồn (hosts hoặc AdBlock đều được) |
 | `custom.txt` | tên miền **tự chặn thêm** |
-| `exclude.txt` | tên miền **luôn cho qua** — ghi domain gốc là tha luôn mọi tên con |
+| `exclude.txt` | tên miền **luôn cho qua**. `example.com` tha cả tên con; `=example.com` chỉ tha đúng tên đó |
 
 Sửa xong đẩy lên là GitHub Actions tự dựng lại `hosts.txt` và commit.
 Không sửa tay `hosts.txt` — lần build sau sẽ ghi đè.
+
+⚠️ Cẩn thận với `exclude.txt` dạng không có `=`: viết `shopee.vn` sẽ tha luôn
+`log-collector.shopee.vn` và `userstats.shopee.vn` — đúng hai thứ mà danh sách
+muốn chặn. Trang chủ thường **không** nằm trong blocklist, chỉ các tên con đo
+đạc mới bị; nên trước khi thêm ngoại lệ, hãy tra xem thực sự tên nào bị chặn.
 
 ## Tự chạy lại
 

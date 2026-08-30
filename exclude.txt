@@ -1,7 +1,10 @@
-# Tên miền LUÔN cho qua, kể cả khi nguồn nào đó chặn nhầm.
-# Ghi domain gốc là đủ: mọi tên con của nó cũng được tha.
-# Ví dụ: viết example.com sẽ tha cả cdn.example.com
-vietcombank.com.vn
-techcombank.com.vn
-exness.com
-shopee.vn
+# Tên miền LUÔN cho qua, kể cả khi nguồn nào đó chặn nhầm. Mặc định để TRỐNG —
+# chỉ thêm khi thực sự gặp trang bị chặn oan.
+#
+# Hai cách viết:
+#   example.com    -> tha example.com VÀ MỌI tên con của nó
+#   =example.com   -> CHỈ tha đúng example.com, tên con vẫn bị chặn
+#
+# ⚠️ Dạng không có "=" rất dễ mở toang: viết shopee.vn sẽ tha luôn
+# log-collector.shopee.vn và userstats.shopee.vn — đúng hai thứ danh sách
+# muốn chặn. Khi chỉ muốn vào được trang chủ, hãy dùng =shopee.vn
