@@ -1,0 +1,7 @@
+# Tên miền LUÔN cho qua, kể cả khi nguồn nào đó chặn nhầm.
+# Ghi domain gốc là đủ: mọi tên con của nó cũng được tha.
+# Ví dụ: viết example.com sẽ tha cả cdn.example.com
+vietcombank.com.vn
+techcombank.com.vn
+exness.com
+shopee.vn

@@ -1,0 +1,7 @@
+# Nguồn blocklist — đúng 5 danh sách mà AdGuard Home trên minix đang dùng.
+# Định dạng hosts (0.0.0.0 domain) và AdBlock (||domain^) đều được hiểu.
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts

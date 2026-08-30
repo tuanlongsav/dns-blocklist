@@ -1,0 +1,3 @@
+# Tên miền tự chặn thêm — mỗi dòng một domain, dòng bắt đầu bằng # là ghi chú.
+# Ví dụ:
+# quangcao-lam-phien.example

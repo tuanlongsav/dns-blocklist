@@ -1,0 +1,37 @@
+name: build blocklist
+
+on:
+  schedule:
+    - cron: "0 20 * * 0"        # 03:00 thứ Hai giờ Việt Nam
+  workflow_dispatch:
+  push:
+    paths:
+      - sources.txt
+      - custom.txt
+      - exclude.txt
+      - build.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dựng hosts.txt
+        run: python3 build.py
+
+      - name: Commit nếu danh sách đổi
+        run: |
+          if [ -n "$(git status --porcelain hosts.txt)" ]; then
+            n=$(grep -m1 'Số tên miền' hosts.txt | grep -oE '[0-9]+')
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add hosts.txt
+            git commit -m "chore: cập nhật blocklist (${n} tên miền)"
+            git push
+          else
+            echo "Danh sách không đổi, không commit."
+          fi
