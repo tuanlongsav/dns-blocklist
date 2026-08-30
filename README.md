@@ -30,3 +30,14 @@ Actions chạy **mỗi tuần** (03:00 thứ Hai giờ VN), chạy tay được 
 
 Header của `hosts.txt` cố ý **không ghi ngày build**, nên khi các nguồn không đổi
 thì file không đổi và không sinh commit rỗng hàng tuần.
+
+## Giấy phép và ghi công
+
+`hosts.txt` là **bản gộp dẫn xuất** từ 5 danh sách của người khác. Một trong số
+đó (AdGuard DNS filter) phát hành theo **GPL-3.0**, nên toàn bộ kho này — kể cả
+danh sách gộp — cũng theo **GPL-3.0** (`LICENSE`). Danh sách nguồn, tác giả và
+nghĩa vụ ghi công của từng cái nằm ở [CREDITS.md](CREDITS.md); phần ghi công
+cũng được nhúng ngay trong header của `hosts.txt`.
+
+Muốn tránh ràng buộc GPL: bỏ `filter_1.txt` khỏi `sources.txt` (mất ~178k tên,
+phần còn lại là MIT + CC BY + dữ liệu URLhaus).

@@ -3,6 +3,14 @@
 # Số tên miền: 265898
 # Nguồn: 5 danh sách + custom.txt, đã trừ exclude.txt
 #
+# Bản gộp dẫn xuất, phát hành theo GPL-3.0 (vì có thành phần GPL-3.0).
+# Ghi công các nguồn — chi tiết ở CREDITS.md:
+#   AdGuard DNS filter (c) AdGuard Software Ltd. — GPL-3.0
+#   AdAway Default Blocklist (c) AdAway — CC BY 3.0
+#   StevenBlack/hosts (c) Steven Black — MIT
+#   hostsVN (c) bigdargon — MIT
+#   Malicious URL Blocklist (c) abuse.ch (URLhaus)
+#
 0.0.0.0 0-ilxrc-w285.p9bckp.sbs
 0.0.0.0 0-lxk284pre.c3kqmp.cfd
 0.0.0.0 0.0.0.0.creative.hpyrdr.com
