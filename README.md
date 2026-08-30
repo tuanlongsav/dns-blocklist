@@ -44,5 +44,10 @@ danh sách gộp — cũng theo **GPL-3.0** (`LICENSE`). Danh sách nguồn, tá
 nghĩa vụ ghi công của từng cái nằm ở [CREDITS.md](CREDITS.md); phần ghi công
 cũng được nhúng ngay trong header của `hosts.txt`.
 
+Kho này chỉ nhận nguồn có giấy phép **cho phép phát hành lại**. Danh sách
+Malicious URL Blocklist (URLhaus / abuse.ch) đã bị loại vì abuse.ch đòi Auth-Key
+và chỉ cho dùng theo "fair use", không cấp quyền tái phân phối — AdGuard Home
+vẫn đăng ký thẳng danh sách đó từ nguồn, chỗ đó không phải tái phân phối.
+
 Muốn tránh ràng buộc GPL: bỏ `filter_1.txt` khỏi `sources.txt` (mất ~178k tên,
-phần còn lại là MIT + CC BY + dữ liệu URLhaus).
+phần còn lại là MIT + CC BY).
