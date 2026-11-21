@@ -4,11 +4,16 @@
 #   AdAway               — CC BY 3.0
 #   StevenBlack/hosts    — MIT
 #   hostsVN              — MIT
+#   HaGeZi Multi PRO     — GPL-3.0
 # Định dạng hosts (0.0.0.0 domain) và AdBlock (||domain^) đều được hiểu.
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+# HaGeZi Multi PRO, bản hosts ĐÃ DÀN TÊN CON (adlist RouterOS chỉ chặn đúng tên được
+# liệt kê, không chặn tên con, nên KHÔNG dùng bản wildcard/onlydomains). Kho GitHub
+# của HaGeZi không còn thư mục hosts/, jsDelivr trả 403 -> lấy từ mirror chính thức.
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/hosts/pro.txt
 
 # ĐÃ BỎ — Malicious URL Blocklist (URLhaus, abuse.ch):
 # https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt

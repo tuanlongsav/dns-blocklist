@@ -10,6 +10,7 @@ Mỗi nguồn giữ nguyên giấy phép của nó; phần gộp phát hành the
 | [AdAway Default Blocklist](https://github.com/AdAway/adaway.github.io) | AdAway | **CC BY 3.0** |
 | [StevenBlack/hosts](https://github.com/StevenBlack/hosts) | Steven Black | **MIT** |
 | [hostsVN](https://github.com/bigdargon/hostsVN) | bigdargon | **MIT** |
+| [HaGeZi DNS Blocklists — Multi PRO](https://github.com/hagezi/dns-blocklists) | Gerd Hagezi | **GPL-3.0** |
 
 ## Ghi công bắt buộc
 
@@ -21,6 +22,8 @@ Mỗi nguồn giữ nguyên giấy phép của nó; phần gộp phát hành the
 - **StevenBlack/hosts** © Steven Black — giấy phép MIT, giữ nguyên thông báo
   bản quyền của tác giả.
 - **hostsVN** © bigdargon — giấy phép MIT.
+- **HaGeZi DNS Blocklists (Multi PRO)** © Gerd Hagezi — GPL-3.0. Lấy bản hosts từ
+  mirror GitLab chính thức của tác giả (`gitlab.com/hagezi/mirror`).
 
 ## Đã cố ý loại trừ
 

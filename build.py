@@ -126,6 +126,7 @@ def main():
         "#   AdAway Default Blocklist (c) AdAway — CC BY 3.0\n"
         "#   StevenBlack/hosts (c) Steven Black — MIT\n"
         "#   hostsVN (c) bigdargon — MIT\n"
+        "#   HaGeZi DNS Blocklists — Multi PRO (c) Gerd Hagezi — GPL-3.0\n"
         "#\n"
     )
     out = HERE / "hosts.txt"

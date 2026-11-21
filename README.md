@@ -6,7 +6,7 @@ chung cho RouterOS (`/ip dns adlist`) và AdGuard Home.
 ## Dùng ở đâu
 
 - **MikroTik RB5009 (nhà)** và **hEX S RB760iGS (quê)** — `/ip dns adlist`
-- **AdGuard Home trên minix (quê)** — có thể thêm cùng URL nếu muốn một nguồn duy nhất
+- **hEX S RB760iGS (nhà bố mẹ vợ)** — `/ip dns adlist`
 
 ```
 https://raw.githubusercontent.com/tuanlongsav/dns-blocklist/main/hosts.txt
@@ -28,6 +28,14 @@ Không sửa tay `hosts.txt` — lần build sau sẽ ghi đè.
 muốn chặn. Trang chủ thường **không** nằm trong blocklist, chỉ các tên con đo
 đạc mới bị; nên trước khi thêm ngoại lệ, hãy tra xem thực sự tên nào bị chặn.
 
+## Lưu ý RouterOS
+
+`/ip dns adlist` chỉ chặn **đúng tên được liệt kê**, không chặn tên con
+(`appsflyer.com` bị chặn nhưng `www.appsflyer.com` thì không). Vì vậy nguồn
+mới phải là bản hosts đã dàn đủ tên con, không dùng bản wildcard. Danh sách
+khoảng 670k tên chiếm ~50 MB cache DNS: đặt `/ip dns set cache-size` ≥ 80 MB
+trên hEX S (256 MB RAM).
+
 ## Tự chạy lại
 
 Actions chạy **mỗi tuần** (03:00 thứ Hai giờ VN), chạy tay được bằng
@@ -38,7 +46,7 @@ thì file không đổi và không sinh commit rỗng hàng tuần.
 
 ## Giấy phép và ghi công
 
-`hosts.txt` là **bản gộp dẫn xuất** từ 5 danh sách của người khác. Một trong số
+`hosts.txt` là **bản gộp dẫn xuất** từ 5 danh sách (AdGuard DNS, AdAway, StevenBlack, hostsVN, HaGeZi Pro) của người khác. Một trong số
 đó (AdGuard DNS filter) phát hành theo **GPL-3.0**, nên toàn bộ kho này — kể cả
 danh sách gộp — cũng theo **GPL-3.0** (`LICENSE`). Danh sách nguồn, tác giả và
 nghĩa vụ ghi công của từng cái nằm ở [CREDITS.md](CREDITS.md); phần ghi công
